@@ -1,3 +1,4 @@
+// Variant 1.2.21
 #include <iostream>
 #include <cmath>
 #define PI 3.14
@@ -31,7 +32,7 @@ bool func5(double x, double y){
     return func5_1>func5_2;
 }
 
-int resf5(){   // Перфекционист
+int resf5(){   // Perfectionizm
     cout<<"1.2.21_5 - "<<func5<<endl;
 }
 
