@@ -1,4 +1,3 @@
-// Variant 1.2.21
 #include <iostream>
 #include <cmath>
 #define PI 3.14
