@@ -3,22 +3,25 @@
 
 using namespace std;
 
-bool func1(int a){
+bool func1(int a)
+{
     return a<9&&a%3==0;
 }
 
-bool func2(int x, int y, int z){
+bool func2(int x, int y, int z)
+{
     return x==100&&y==100&&z==100;
 }
 
-double func3(double x, double y){
-	double a = cos(x-y);
-	double b = cos(x+y);
-	double d = tan(x)+tan(y);
-	double ctgx = cos(x)/sin(x);
-	double ctgy = cos(y)/sin(y);
-	double result1 = ((a+b)/(a-b))*((ctgx+ctgy)/d);
-	return result1;
+double func3(double x, double y)
+{
+    double a = cos(x-y);
+    double b = cos(x+y);
+    double d = tan(x)+tan(y);
+    double ctgx = cos(x)/sin(x);
+    double ctgy = cos(y)/sin(y);
+    double result1 = ((a+b)/(a-b))*((ctgx+ctgy)/d);
+    return result1;
 }
 
 int main()
